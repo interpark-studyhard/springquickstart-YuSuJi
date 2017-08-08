@@ -31,7 +31,7 @@ public class UserDAO {
 			stmt = conn.prepareStatement(USER_GET);
 			stmt.setString(1, vo.getId());
 			stmt.setString(2, vo.getPassword());
-			stmt.executeUpdate();
+			//stmt.executeUpdate();
 			rs=stmt.executeQuery();
 			if(rs.next()){
 				user = new UserVO();

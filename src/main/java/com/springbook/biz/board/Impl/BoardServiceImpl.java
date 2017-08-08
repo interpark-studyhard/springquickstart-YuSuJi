@@ -11,7 +11,7 @@ import com.springbook.biz.board.BoardVO;
 //import com.springbook.biz.common.Log4jAdvice;
 
 @Service("boardService")
-public class BoardServiceIpml implements BoardService {
+public class BoardServiceImpl implements BoardService {
 
 	@Autowired
 	private BoardDAOSpring boardDAO;
